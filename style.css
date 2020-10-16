@@ -1,5 +1,4 @@
 /* Dangling Boy CSS */
-
 * {
     border: 1px solid purple;
     margin: 0;
@@ -108,7 +107,7 @@
                 align-items: center;
             }
 
-                #guess-blanks {
+                #random-string-display {
                     height: 95%;
                     width: 95%;
                 }
