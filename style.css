@@ -39,7 +39,7 @@
 
 /* content: contains buttons and the display */
 .content {
-    height: 65%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -75,14 +75,14 @@
             }
 
                 #letters-remaining {
-                    height: 35%;
-                    width: 35%;
+                    height: 40%;
+                    width: 45%;
                     background-color: green;
                 }
 
                 #guesses-remaining {
-                    height: 35%;
-                    width: 35%;
+                    height: 40%;
+                    width: 45%;
                     background-color: red;
                 }
 
@@ -147,5 +147,29 @@
 
 /* footer: contains the scoreboard */
 .footer {
-    height: 20%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
+    #scoreboard {
+        width: 95%;
+        height: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        #player-one-score {
+            height: 100%;
+            width: 48%;
+            background-color: grey;
+        }
+
+        #player-two-score {
+            height: 100%;
+            width: 48%;
+            background-color: grey;
+        }
